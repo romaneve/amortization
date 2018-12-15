@@ -14,11 +14,6 @@ from pandas import DataFrame as xl
 from pandas import ExcelWriter as ew
 import xlsxwriter
 
-# this class is for formatting in future updates.
-# class formatting:
-#    f_underline = '\033[4m'
-#    f_close = '\033[0m'
-#    f_tab = '\t'
 
 def i_amortize(p,r,n):
     # calculate the monthly interest and apply the
