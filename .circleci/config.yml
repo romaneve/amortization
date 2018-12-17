@@ -23,4 +23,3 @@ jobs:
           command: |
             . venv/bin/activate
             pytest -v --cov
-            flake8 --statistics
